@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ywZFDLEzqfCATh2c2bw7zPwgPWLy49eqMrUXgdU/kR+7Fjp5qu9K6cZgFk1Z+gR2/Y/PUZetagrpKlO7l7dhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\VisualisingSoftwareEngineering\\VisualisingSoftwareEngineering.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
