@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\VisualisingSoftwareEngineering\\VisualisingSoftwareEngineering.csproj",
+      "projectUniqueName": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\V_SE_GIT_VE\\Visualising_Software_Engineering\\VisualisingSoftwareEngineering.csproj",
       "projectName": "VisualisingSoftwareEngineering",
-      "projectPath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\VisualisingSoftwareEngineering\\VisualisingSoftwareEngineering.csproj",
+      "projectPath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\V_SE_GIT_VE\\Visualising_Software_Engineering\\VisualisingSoftwareEngineering.csproj",
       "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\VisualisingSoftwareEngineering\\obj\\",
+      "outputPath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\V_SE_GIT_VE\\Visualising_Software_Engineering\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
