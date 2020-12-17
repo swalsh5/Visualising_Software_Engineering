@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iaQvdT0TrYkvQNdRCquF331jZrx1g2079xzE3c/t0OeF60EnPgleN1op5yS/ItHij/qeVhOSWC3UE7mc52ZFzQ==",
+  "dgSpecHash": "K2vlotDOzaYK1H/SoxTjbqajyQ/pEKZDsF3+hH3TD7QAtFBJBdTCOyyeBua0Hwp7B262LtFm87ik7CwNTrPosw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Desktop\\3rd Year\\SWENG\\Visualising SE\\V_SE_GIT_VE\\Visualising_Software_Engineering\\VisualisingSoftwareEngineering.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
