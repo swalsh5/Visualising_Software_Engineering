@@ -8,15 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\**" />
+    <Compile Remove="wwwroot\data\**" />
+    <Content Remove="Models\**" />
+    <Content Remove="wwwroot\data\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="wwwroot\data\**" />
+    <None Remove="Models\**" />
+    <None Remove="wwwroot\data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Components\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Services\" />
-    <Folder Include="wwwroot\data\" />
   </ItemGroup>
 
 </Project>
