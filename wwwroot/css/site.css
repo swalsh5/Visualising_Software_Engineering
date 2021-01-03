@@ -7,13 +7,29 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+
+/* Header Styling*/
+.bg-navbar {
+    background-color: #F79D65;
+}
+
+
+/*Border Box for Input*/
+.borderInput {
+    border: 5px solid #F79D65;
+    border-radius: 25px;
+    background: #F3F8F2;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: black;
 }
 
 .btn-primary {
-  color: #fff;
+  color: rgb(255, 106, 0);
   background-color: #1b6ec2;
   border-color: #1861ac;
 }

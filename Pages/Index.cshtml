@@ -4,40 +4,30 @@
     ViewData["Title"] = "Home page";
 }
 
-<h1>Enter a GitHub Username to See Their Statistics</h1>
-<div class="inputContainer">
-    <form>
-        <label class="inLabel" for="username">Please Input a GitHub User</label><br>
-        <input class="inText" id="textBox" type="text" id="username" name="userName"><br>
-    </form>
-    <button class="inButton" onclick="handleInput()">Submit User</button>
-</div>
-
-<div class="userProfile">
-
-</div>
-    
-    
-    
-    @*<div class="userNameContainer">
+<div class="inputContainer borderInput">
+        <h1>Enter a GitHub Username to See Their Statistics</h1>
         <form>
-            <label class="userNameLabel" for="username"> Enter a User</label><br />
-            <input class="userNameText" id="userTextBox username" type="text" name="userName" /><br />
+            <label class="inLabel" for="username">Please Input a GitHub User</label><br>
+            <input class="inText" id="textBox" type="text" id="username" name="userName"><br>
         </form>
-        <button class="btnUser" onclick="handleUsernameInput()">Search Users</button>
+        <button class="inButton" onclick="handleInput()">Submit User</button>
+</div>
+
+
+<section class="userNameInfo">
+    <h1>User Statistics </h1>
+    <div class="overviewContainer">
+        <img id="avatar" />
+        <div class="basicStatsContainer">
+            <h3 id="userName"> Username</h3>
+            <h5 id="amtRepos">Public Repos = 0</h5>
+            <h5 id="followers">Followers: 0</h5>
+            <p id="favouredLanguage">Favoured Language: ??</p>
+            <p id="followedRepo">Most Followed Repo(s): ??</p>
+        </div>
     </div>
-    <div class="repoContainer">
-        <form>
-            <label class="repoLabel" for="repo"> Enter a User</label><br />
-            <input class="repoText" id="repoTextBox repo" type="text" name="repo" /><br />
-        </form>
-        <button class="btnRepos" onclick="handleRepoInput()">Search Repos</button>
-    </div>*@
-
-@*<button id="btnRepos">Repos</button>
-<button id="btnIssues">Issues</button>
-<button id="btnCommits">Commits</button>
-<button id="btnIssuesPrivate">Issues - Private</button>*@
-<div id="divResult">
-
-</div>
+    <div class="graphContainer">
+        <h5>Social Graph of User Contributions</h5>
+        <svg class="socialGraph" width="500" height="400"></svg>
+    </div>
+</section>

@@ -59,7 +59,6 @@ C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Softw
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\VisualisingSoftwareEngineering.RazorCoreGenerate.cache
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -71,3 +70,4 @@ C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Softw
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\VisualisingSoftwareEngineering.pdb
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\VisualisingSoftwareEngineering.genruntimeconfig.cache
 C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\obj\Debug\netcoreapp3.1\VisualisingSoftwareEngineering.csproj.CopyComplete
+C:\Users\Sam\Desktop\3rd Year\SWENG\Visualising SE\V_SE_GIT_VE\Visualising_Software_Engineering\bin\Debug\netcoreapp3.1\libman.json
