@@ -5,6 +5,10 @@
     {
       "library": "d3@6.3.1",
       "destination": "wwwroot/lib/d3/"
+    },
+    {
+      "library": "Chart.js@2.9.4",
+      "destination": "wwwroot/lib/Chart.js/"
     }
   ]
 }

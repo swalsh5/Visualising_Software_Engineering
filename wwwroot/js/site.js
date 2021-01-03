@@ -21,15 +21,10 @@ async function main(user) {
 
     //User Stats
     BasicStats(repoData, user)
-   // AvgCommits(repoData);
-   // MostCommits(repoData, user);
-
     //Social Graph
     parseNetworkGraph(repoData);
     //PieChart
-    languageChart(repoData, user)
-    //Line Graph
-    parseLineGraph(repoData);
+    GetLanguageData(repoData, user)
 
 }
 
@@ -217,4 +212,55 @@ function NetworkGraphDraw(nodeData, linkData) {
                 return d.y - 3;
             });
     }
+}
+
+//Pie Chart
+async function GetLanguageData(data, user) {
+    let languages = new Set();
+    let langsInRepo = []
+    for (let i = 0; i < data.length; i++) {
+        const repo = data[i].name;
+        let a = await GetRequest('https://api.github.com/repos/' + user + '/' + repo + '/languages').catch((error) => console.error(error));
+        langsInRepo.push(a)
+    }
+    for (let i = 0; i < langsInRepo.length; i++) {
+        let keyArr = Object.keys(langsInRepo[i]);
+        for (let j = 0; j < keyArr.length; j++) {
+            languages.add(keyArr[j])
+        }
+    }
+    let langSize = new Map()
+    for (let value of languages) langSize.set(value, 0);
+    for (let i = 0; i < langsInRepo.length; i++) {
+        let obj = langsInRepo[i];
+        for (const [key, value] of Object.entries(obj)) {
+
+            let oldVal = langSize.get(key);
+            let newVal = value + oldVal;
+            const newMap = langSize.set(key, newVal)
+            langSize = newMap;
+        }
+
+    }
+    let languageList = [];
+    let valueList = [];
+    for (const [key, value] of langSize.entries()) {
+        languageList.push(key);
+        valueList.push(value);
+    }
+    DrawPieChart(languageList, valueList);
+}
+function DrawPieChart(languages, values) {
+    let chart = document.getElementById("pieChart");
+    let pieChart = new Chart(chart, {
+        type: 'doughnut',
+        data: {
+            labels: languages,
+            datasets: [{
+                label: 'Languages',
+                data: values
+            }]
+        },
+        options: {}
+    });
 }
