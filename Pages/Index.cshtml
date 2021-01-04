@@ -4,32 +4,36 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="inputContainer borderInput">
+<div class="inputContainer borderInput text-center">
         <h1>Enter a GitHub Username to See Their Statistics</h1>
         <form>
-            <label class="inLabel" for="username">Please Input a GitHub User</label><br>
+            <label class="inLabel" for="username">Please Input a GitHub User:</label><br>
             <input class="inText" id="textBox" type="text" id="username" name="userName"><br>
         </form>
-        <button class="inButton" onclick="handleInput()">Submit User</button>
+        <button class="inButton mt-3" onclick="handleInput()">Submit User</button>
 </div>
 
 
 <section class="userNameInfo borderInput">
-    <h1>User Statistics </h1>
+    <h1 class="text-center pb-4">User Statistics </h1>
     <div class="overviewContainer">
-        <img id="avatar" />
-        <div class="basicStatsContainer">
+        <img id="avatar" class="mx-5 overviewItem" height="300" width="300"/>
+        <div class="overviewItem px-5">
             <h3 id="userName"> Username</h3>
-            <h5 id="amtRepos">Public Repos = 0</h5>
-            <h5 id="followers">Followers: 0</h5>
+            <p id="amtRepos">Public Repos = 0</p>
+            <p id="followers">Followers: 0</p>
             <p id="favouredLanguage">Favoured Language: ??</p>
             <p id="followedRepo">Most Followed Repo(s): ??</p>
         </div>
     </div>
-    <div class="graphContainer">
-        <h5>Social Graph of User Contributions</h5>
-        <svg class="socialGraph" width="500" height="400"></svg>
-        <h5>Pie Chart of Languages Used</h5>
-        <canvas id="pieChart" width="500" height="400"></canvas>
+    <div class="graphContainer borderGraph mt-5 pt-4">
+        <div class="graphItem text-center">
+            <h5>Social Graph of User Contributions</h5>
+            <svg class="socialGraph" width="500" height="400"></svg>
+        </div>
+        <div class="graphItem text-center">
+            <h5>Pie Chart of Languages Used</h5>
+            <canvas id="pieChart" width="500" height="400"></canvas>
+        </div>
     </div>
 </section>

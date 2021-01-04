@@ -14,13 +14,26 @@ a.navbar-brand {
 }
 
 
-/*Border Box for Input*/
+/*Border Boxes*/
 .borderInput {
     border: 5px solid #F79D65;
     border-radius: 25px;
     background: #F3F8F2;
     padding: 25px;
     margin-bottom: 10px;
+}
+.borderGraph {
+    border-top: 2px dashed #F79D65;
+}
+/*Flexboxes for displaying user info */
+.overviewContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.graphContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Provide sufficient contrast against white background */

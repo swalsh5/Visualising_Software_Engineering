@@ -41,8 +41,8 @@ function BasicStats(data,user) {
 function GetAvatar(data) {
     const img = document.getElementById("avatar");
     img.src = data[0].owner.avatar_url;
-    img.style.width = "200px";
-    img.style.height = "200px";
+    img.style.width = "300px";
+    img.style.height = "300px";
 }
 
 function GetUserName(data) {
