@@ -53,7 +53,12 @@ function GetUserName(data) {
 function GetAmtOfRepos(data) {
     const amt = GetCount(data);
     const amtRepos = document.getElementById("amtRepos");
+    if (amtRepos === 30) {
+        amtRepos.innerHTML = "Public Repos = >= 30";
+    }
+    else {
     amtRepos.innerHTML = "Public Repos = " + amt;
+    }
 }
 
 async function GetFollowers(user) {
@@ -258,9 +263,23 @@ function DrawPieChart(languages, values) {
             labels: languages,
             datasets: [{
                 label: 'Languages',
-                data: values
-            }]
+                data: values,
+                backgroundColor: GenerateColours(languages.length)
+            }],
         },
         options: {}
     });
+}
+
+// Random rgb colour generator to generate colours for pie chart
+function GenerateColours(amtNeeded) {
+    let colours = [];
+    for (var i = 0; i < amtNeeded; i++) {
+        let r = Math.floor(Math.random() * 200);
+        let g = Math.floor(Math.random() * 200);
+        let b = Math.floor(Math.random() * 200);
+        let colour = 'rgba(' + r + ',' + g + ',' + b + ', 0.6)';
+        colours.push(colour);
+    }
+    return colours;
 }
