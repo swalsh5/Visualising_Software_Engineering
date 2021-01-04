@@ -151,7 +151,7 @@ async function parseNetworkGraph(repoData) {
     NetworkGraphDraw(theNodes, theLinks);
 }
 function NetworkGraphDraw(nodeData, linkData) {
-    var svg = d3.select(".socialGraph");
+    var svg = d3.select(".networkGraph");
     svg.selectAll("*").remove()
     var width = svg.attr("width");
     var height = svg.attr("height");
